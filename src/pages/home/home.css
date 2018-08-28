@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.display-text {
+    flex-basis: calc(100vh);
+    flex-grow: 10;
+}
+
+.input-dialog {
+    flex-grow: 1;
+    display: flex;
+}
+
+.input-dialog > input {
+    width: 100%;
+    padding: 20px;
+}
+
+.green {
+    color: green;
+}
+
+.current {
+    color: blue;
+}
+
+.error {
+    color: red;
+}
